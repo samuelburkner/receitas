@@ -8,7 +8,17 @@ body {
     display: flex;
     flex-direction: column;
 }
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
 
+.back-btn:hover {
+    text-decoration: underline;
+}
 .cabecalho {
     background: linear-gradient(to right, #8fbc8f, #b8860b); /* Verde musgo e marrom escuro */
     color: #fff; /* Garante bom contraste com o fundo escuro */
