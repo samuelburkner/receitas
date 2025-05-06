@@ -19,6 +19,15 @@ body {
 .back-btn:hover {
     text-decoration: underline;
 }
+.button-link {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 .cabecalho {
     background: linear-gradient(to right, #8fbc8f, #b8860b); /* Verde musgo e marrom escuro */
     color: #fff; /* Garante bom contraste com o fundo escuro */
